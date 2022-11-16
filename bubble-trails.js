@@ -1,3 +1,7 @@
+const container = document.querySelector("#root")
+
+let currentCount = 0
+
 const color = [
     "Aquamarine",
     "SteelBlue",
@@ -7,21 +11,30 @@ const color = [
     "Indigo",
     "Aquamarine"
 ]
-const container = document.querySelector("#root")
 
-const animateBubble = (x,y) => {
-
-    const randomColor = color[Math.floor(Math.random() * color.length)]
+const createBubble = (posX,posY) => {
+    const randomColor = color[ Math.floor(Math.random() * color.length) ]
 
     const bubble = document.createElement("div")
-    bubble.className = "bubble"
-    bubble.style.backgroundColor = randomColor
-    bubble.style.left = `${x}px`
-    bubble.style.top = `${y}px`
-
+        bubble.className = "bubble"
+        bubble.style.backgroundColor = randomColor
+        bubble.style.left = `${posX}px`
+        bubble.style.top = `${posY}px`
+    
     container.appendChild(bubble)
 
     setTimeout( () => container.removeChild(bubble), 8000)
 }
 
-window.onmousemove = e => animateBubble(e.clientX, e.clientY)
+const updateStats = (element, value) => document.querySelector(element).innerHTML = value
+
+
+
+window.onmousemove = e => {
+    createBubble(e.clientX, e.clientY)
+    
+    // Extra info, nothing to do with animation.
+    updateStats(".posX", e.clientX)
+    updateStats(".posY", e.clientY)
+    updateStats(".count", `#${currentCount++}`)
+}
