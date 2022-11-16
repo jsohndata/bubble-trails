@@ -10,7 +10,7 @@ body {
     height: 100%;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    pointer-events: none;
+    
 }
 
 
@@ -54,11 +54,14 @@ footer {
     right: 0;
     bottom: 0;
     box-sizing: border-box;
-    z-index: -1;
+    z-index: 100;
 }
 
-footer > p {
+footer p {
     color: var(--color-bright);
     text-align: center;
     padding: 0.5em;
 }
+
+footer a:link,
+footer a:visited { color: var(--color-bright); }
