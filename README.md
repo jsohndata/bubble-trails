@@ -8,5 +8,8 @@ Go ahead and [try it yourself](https://mesa-rae.web.app/bubble-trails?ref=github
 
 [chilldoodle.web.app/bubble-trails](https://chilldoodle.web.app/bubble-trails)
 
+## Comment
+Currently for desktop. Working on making it for mobile.
+
 # Inspiration
 Saw this [video on Youtube](https://www.youtube.com/shorts/VTw2cUVFl1c) by [Hyperplexed](https://www.youtube.com/@Hyperplexed). Followed the code then adjusted it and got bubble trails. :)
