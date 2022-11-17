@@ -28,13 +28,14 @@ const createBubble = (posX,posY) => {
 
 const updateStats = (element, value) => document.querySelector(element).innerHTML = value
 
-
-
-window.onmousemove = e => {
-    createBubble(e.clientX, e.clientY)
+window.addEventListener("mousemove",
+    (e) => {
+        createBubble(e.clientX, e.clientY)
     
-    // Extra info, nothing to do with animation.
-    updateStats(".posX", e.clientX)
-    updateStats(".posY", e.clientY)
-    updateStats(".count", `#${currentCount++}`)
-}
+        // Extra info, nothing to do with animation.
+        updateStats(".posX", e.clientX)
+        updateStats(".posY", e.clientY)
+        updateStats(".count", `#${currentCount++}`)
+    }
+)
+
