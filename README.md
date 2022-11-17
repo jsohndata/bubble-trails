@@ -1,12 +1,12 @@
 # Bubble Trails
 Fun experimental project creating bubbles and trails as your mouse moves.
 
-[![Watch Trailer](./src/readme-bubble-trails.gif)](https://www.youtube.com/watch?v=6Nhmg4nCPXE)
+[![Watch Trailer](./src/readme-bubble-trails.gif)](https://chilldoodle.web.app/bubble-trails)
 
 
-**👾 Play With It.** [https://chilldoodle.web.app/bubble-trails](https://chilldoodle.web.app/bubble-trails)
+**Play with it 👾** [https://chilldoodle.web.app/bubble-trails](https://chilldoodle.web.app/bubble-trails)
 
-**🍿 See The Trailer.** [https://www.youtube.com/watch?v=6Nhmg4nCPXE](https://www.youtube.com/watch?v=6Nhmg4nCPXE)
+**See the trailer 🍿** [https://www.youtube.com/watch?v=6Nhmg4nCPXE](https://www.youtube.com/watch?v=6Nhmg4nCPXE)
 
 
 ## Comment
