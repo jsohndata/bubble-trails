@@ -6,7 +6,7 @@ Fun experimental project creating bubbles and trails as your mouse moves.
 
 **👾 Play With It.** [https://chilldoodle.web.app/bubble-trails](https://chilldoodle.web.app/bubble-trails)
 
-**🍿 See The Trailer.** [https://chilldoodle.web.app/bubble-trails](https://chilldoodle.web.app/bubble-trails)
+**🍿 See The Trailer.** [https://www.youtube.com/watch?v=6Nhmg4nCPXE](https://www.youtube.com/watch?v=6Nhmg4nCPXE)
 
 
 ## Comment
