@@ -9,7 +9,7 @@ html { scroll-behavior: smooth; }
 
 body { 
     width: 100vw;
-    height: 10vh;
+    height: 100vh;
     background: rgb(238,174,202);
     background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
 }
@@ -29,10 +29,6 @@ body {
     cursor: move;   
 }
 
-.bubble-parent { 
-    z-index: 100 ;
-    background-color: black !important; }
-
 @keyframes wave {
     from { 
         transform: translate(-27%, 11%) scale(2.3, 2.3);
@@ -47,7 +43,6 @@ body {
     50% { transform: translate(-123%, 200%) scale(1.5, 1.5); }
     75% { transform: translate(51%, -130%) scale(0.8, 0.8); }
     90% { transform: translate(-211%, -231%) scale(0.2, 0.2); }
-
 }
 
 footer {    
