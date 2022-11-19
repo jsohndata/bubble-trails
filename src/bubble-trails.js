@@ -39,3 +39,14 @@ window.addEventListener("mousemove",
     }
 )
 
+window.addEventListener("touchmove",
+    (e) => {
+        createBubble(e.touces[0], e.touches[1])
+    
+        // Extra info, nothing to do with animation.
+        updateStats(".posX", e.clientX)
+        updateStats(".posY", e.clientY)
+        updateStats(".count", `#${currentCount++}`)
+    }
+)
+
