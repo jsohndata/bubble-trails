@@ -36,17 +36,20 @@ window.addEventListener("mousemove",
         updateStats(".posX", e.clientX)
         updateStats(".posY", e.clientY)
         updateStats(".count", `#${currentCount++}`)
-    }
-)
+})
 
-window.addEventListener("touchmove",
-    (e) => {
-        createBubble(e.touces[0], e.touches[1])
-    
-        // Extra info, nothing to do with animation.
-        updateStats(".posX", e.clientX)
-        updateStats(".posY", e.clientY)
-        updateStats(".count", `#${currentCount++}`)
-    }
-)
+window.addEventListener("touchstart", (e) => {
+    [...e.changedTouches].forEach(touch => {
+        createBubble(touch.pageX, touch.pageY)
+        updateStats(".posX", touch.pageX)
+        updateStats(".posY", touch.pageY)
+    })
+})
 
+window.addEventListener("touchmove", (e) => {
+    console.log('move')
+})
+
+window.addEventListener("touchend", (e) => {
+    console.log('end')
+})
