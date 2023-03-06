@@ -3,9 +3,8 @@
 
 Fun experimental project creating bubbles and trails as your mouse moves.
 
-## Links
-* [👉  https://jsohndata.github.io/bubble-trails](https://chilldoodle.web.app/bubble-trails)
-
+## Link(s)
+* [👉 jsohndata.github.io/bubble-trails](https://chilldoodle.web.app/bubble-trails)
 * [👉 Youtube](https://www.youtube.com/watch?v=6Nhmg4nCPXE)
 
 <br>
