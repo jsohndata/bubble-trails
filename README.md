@@ -1,10 +1,10 @@
 # Bubble Trails
-[![Watch Trailer](./src/readme-bubble-trails.gif)](https://chilldoodle.web.app/bubble-trails)
+[![Watch Trailer](./src/readme-bubble-trails.gif)](https://jsohndata.github.io/bubble-trails/)
 
 Fun experimental project creating bubbles and trails as your mouse moves.
 
 ## Link(s)
-* [👉 jsohndata.github.io/bubble-trails](https://chilldoodle.web.app/bubble-trails)
+* [👉 jsohndata.github.io/bubble-trails](https://jsohndata.github.io/bubble-trails/)
 * [👉 Youtube](https://www.youtube.com/watch?v=6Nhmg4nCPXE)
 
 <br>
