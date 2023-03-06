@@ -1,0 +1,7 @@
+{
+  "type": "module",
+  "homepage": "https://jsohndata.github.io/bubble-trails",
+  "dependencies": {
+    "gh-pages": "^5.0.0"
+  }
+}
