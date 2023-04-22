@@ -11,7 +11,7 @@ Fun experimental project creating bubbles and trails as your mouse moves.
 <br>
 
 ## Youtube
-* [Youtube](https://www.youtube.com/watch?v=6Nhmg4nCPXE)
+* [Trailer](https://www.youtube.com/watch?v=6Nhmg4nCPXE)
 
 <br>
 
