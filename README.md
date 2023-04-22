@@ -1,6 +1,7 @@
 # Bubble Trails
-Fun experimental project creating bubbles and trails as your mouse moves.
 [![Demo](./src/readme-bubble-trails.gif)](https://jsohndata.github.io/bubble-trails/)
+
+Fun experimental project creating bubbles trails based on mouse movement.
 
 <br>
 
