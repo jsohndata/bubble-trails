@@ -27,6 +27,7 @@ body {
     background-color: aquamarine;
     border-radius: 100%;
     border: 1px solid #cccccc;
+    opacity: 0.9;
     
     position: absolute;
     animation: wave 10s ease-in-out infinite;
