@@ -3,21 +3,22 @@ const container = document.querySelector("#root")
 let currentCount = 0
 
 const color = [
-    "NeonCyan",
-    "ElectricBlue",
-    "HotPink",
-    "BrightSilver",
-    "NeonCoral",
-    "VibrantPurple",
-    "BrightTurquoise",
-    "Cyan",
-    "LightSkyBlue",
-    "Coral",
-    "LightSlateGray",
-    "CoralPink",
-    "ElectricBlue",
-    "Turquoise"
+    "#00a8a8", // Dark Neon Cyan
+    "#0033cc", // Dark Electric Blue
+    "#ff1493", // Dark Hot Pink
+    "#666666", // Dark Bright Silver
+    "#ff4500", // Dark Neon Coral
+    "#9400d3", // Dark Vibrant Purple
+    "#00ced1", // Dark Bright Turquoise
+    "#008b8b", // Dark Cyan
+    "#4682b4", // Dark Light Sky Blue
+    "#ff6347", // Dark Coral
+    "#2f4f4f", // Dark Light Slate Gray
+    "#ff69b4", // Dark Coral Pink
+    "#4169e1", // Dark Electric Blue
+    "#40e0d0"  // Dark Turquoise
 ];
+
 
 
 const createBubble = (posX,posY) => {
