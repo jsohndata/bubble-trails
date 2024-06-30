@@ -3,6 +3,13 @@ const container = document.querySelector("#root")
 let currentCount = 0
 
 const color = [
+    "NeonCyan",
+    "ElectricBlue",
+    "HotPink",
+    "BrightSilver",
+    "NeonCoral",
+    "VibrantPurple",
+    "BrightTurquoise",
     "Cyan",
     "LightSkyBlue",
     "Coral",
