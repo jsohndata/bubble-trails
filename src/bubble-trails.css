@@ -16,8 +16,8 @@ html { scroll-behavior: smooth; }
 body { 
     width: 100vw; height: 100vh;
     font-family: "Montserrat", sans-serif;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    background: rgb(115, 22, 62);
+    background: radial-gradient(circle, rgb(105, 105, 6) 0%, rgb(81, 67, 146) 100%);
 }
 
 /* ************* Config ************* */
@@ -69,21 +69,3 @@ footer p {
 
 footer a:link,
 footer a:visited { color: var(--color-bright); }
-
-#mozarts-ghost {
-    position: fixed;
-    opacity: 1;
-    bottom: 0;
-    left: 10px;
-    padding: 10px;
-  }
-  
-  #mozarts-ghost a:link,
-  #mozarts-ghost a:visited {
-    color: rgb(164, 164, 235);
-    text-decoration: none;
-  }
-  
-  #mozarts-ghost a:hover {
-    color: rgb(195, 0, 255);
-  }
