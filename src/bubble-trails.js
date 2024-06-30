@@ -3,14 +3,15 @@ const container = document.querySelector("#root")
 let currentCount = 0
 
 const color = [
-    "Aquamarine",
-    "SteelBlue",
-    "Salmon",
-    "LightSteelBlue",
-    "PeachPuff",
-    "Indigo",
-    "Aquamarine"
-]
+    "Cyan",
+    "LightSkyBlue",
+    "Coral",
+    "LightSlateGray",
+    "CoralPink",
+    "ElectricBlue",
+    "Turquoise"
+];
+
 
 const createBubble = (posX,posY) => {
     const randomColor = color[ Math.floor(Math.random() * color.length) ]
