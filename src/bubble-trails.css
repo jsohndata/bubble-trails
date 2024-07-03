@@ -7,7 +7,8 @@
 
 /* ************* Core ************* */
 body { 
-    width: 100vw; height: 100vh;
+    width: 100vw; 
+    height: 100vh;
     font-family: "Montserrat", sans-serif;
     background: rgb(115, 22, 62);
     background: radial-gradient(circle, rgb(95, 6, 127) 0%, rgb(5, 28, 65) 100%);
