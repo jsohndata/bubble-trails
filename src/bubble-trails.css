@@ -18,6 +18,9 @@ body {
     font-family: "Montserrat", sans-serif;
     background: rgb(115, 22, 62);
     background: radial-gradient(circle, rgb(127, 7, 175) 0%, rgb(9, 62, 96) 100%);
+        overflow: hidden; /* Prevent scrolling */
+        touch-action: none; /* Disable touch actions */
+    
 }
 
 /* ************* Config ************* */
