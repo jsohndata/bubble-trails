@@ -6,21 +6,19 @@
 }
 
 /* ************* Core ************* */
-*, *::before, *::after { margin: 0; padding:0; box-sizing: inherit; }
-html { scroll-behavior: smooth; }
 body { 
     width: 100vw; height: 100vh;
     font-family: "Montserrat", sans-serif;
     background: rgb(115, 22, 62);
-    background: radial-gradient(circle, rgb(18, 3, 58) 0%, rgb(106, 5, 126) 100%);
+    background: radial-gradient(circle, rgb(95, 6, 127) 0%, rgb(5, 28, 65) 100%);
     overflow: hidden; /* Prevent scrolling */
     touch-action: none; /* Disable touch actions */
 }
 
 /* ************* Config ************* */
 .bubble {
-    width: clamp(3.0em, 4vw, 5.0em);
-    height: clamp(3.0em, 4vw, 5.0em);
+    width: clamp(200px, 4vw, 400px);
+    height: clamp(200px, 4vw, 400px);
     background-color: rgb(1, 14, 27);
     border-radius: 50%;
     border: 1px solid #ffd8127b;
