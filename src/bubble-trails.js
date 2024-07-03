@@ -1,6 +1,6 @@
-const container = document.querySelector("#root")
+const container = document.querySelector("#root");
 
-let currentCount = 0
+let currentCount = 0;
 
 const color = [
     "#00a8a8", // Dark Neon Cyan
@@ -19,33 +19,38 @@ const color = [
     "#40e0d0"  // Dark Turquoise
 ];
 
+const createBubble = (posX, posY) => {
+    const randomColor = color[Math.floor(Math.random() * color.length)];
 
+    const bubble = document.createElement("div");
+    bubble.className = "bubble";
+    bubble.style.backgroundColor = randomColor;
+    bubble.style.left = `${posX}px`;
+    bubble.style.top = `${posY}px`;
 
-const createBubble = (posX,posY) => {
-    const randomColor = color[ Math.floor(Math.random() * color.length) ]
+    container.appendChild(bubble);
 
-    const bubble = document.createElement("div")
-        bubble.className = "bubble"
-        bubble.style.backgroundColor = randomColor
-        bubble.style.left = `${posX}px`
-        bubble.style.top = `${posY}px`
-    
-    container.appendChild(bubble)
+    setTimeout(() => container.removeChild(bubble), 8000);
+};
 
-    setTimeout( () => container.removeChild(bubble), 8000)
-}
+const updateStats = (element, value) => document.querySelector(element).innerHTML = value;
 
-const updateStats = (element, value) => document.querySelector(element).innerHTML = value
+const handleEvent = (x, y) => {
+    createBubble(x, y);
+    updateStats(".posX", x);
+    updateStats(".posY", y);
+    updateStats(".count", `#${currentCount++}`);
+};
 
-window.addEventListener("mousemove",
-    (e) => {
-        createBubble(e.clientX, e.clientY)
-    
-        // Extra info, nothing to do with animation.
-        updateStats(".posX", e.clientX)
-        updateStats(".posY", e.clientY)
-        updateStats(".count", `#${currentCount++}`)
-})
+window.addEventListener("mousemove", (e) => {
+    handleEvent(e.clientX, e.clientY);
+});
+
+window.addEventListener("touchmove", (e) => {
+    const touch = e.touches[0];
+    handleEvent(touch.clientX, touch.clientY);
+});
+
 
 // window.addEventListener("touchstart", (e) => {
 //     [...e.changedTouches].forEach(touch => {
