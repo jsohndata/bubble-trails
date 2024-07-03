@@ -18,8 +18,8 @@ body {
 
 /* ************* Config ************* */
 .bubble {
-    width: clamp(3.3em, 4vw, 4.8em);
-    height:  clamp(3.3em, 4vw, 4.8em);
+    width: clamp(4.3em, 6vw, 5.8em);
+    height:  clamp(4.3em, 6vw, 5.8em);
     background-color: rgb(1, 14, 27);
     border-radius: 50%;
     border: 1px solid #ffd8127b;
