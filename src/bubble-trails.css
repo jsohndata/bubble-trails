@@ -19,8 +19,8 @@ body {
 
 /* ************* Config ************* */
 .bubble {
-    width: clamp(2rem, 4vw, 4vw);
-    height: clamp(2rem, 4vw, 4vw);
+    width: clamp(2.1rem, 4vw, 5.3vw);
+    height: clamp(2.1rem, 4vw, 5.3vw);
     background-color: aquamarine;
     border-radius: 50%;
     border: 1px solid #ffd712;
