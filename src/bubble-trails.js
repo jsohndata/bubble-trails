@@ -50,20 +50,3 @@ window.addEventListener("touchmove", (e) => {
     const touch = e.touches[0];
     handleEvent(touch.clientX, touch.clientY);
 });
-
-
-// window.addEventListener("touchstart", (e) => {
-//     [...e.changedTouches].forEach(touch => {
-//         createBubble(touch.pageX, touch.pageY)
-//         updateStats(".posX", touch.pageX)
-//         updateStats(".posY", touch.pageY)
-//     })
-// })
-
-// window.addEventListener("touchmove", (e) => {
-//     console.log('move')
-// })
-
-// window.addEventListener("touchend", (e) => {
-//     console.log('end')
-// })
