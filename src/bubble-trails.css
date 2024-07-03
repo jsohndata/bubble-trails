@@ -23,7 +23,7 @@ body {
     height: clamp(2rem, 4vw, 4vw);
     background-color: aquamarine;
     border-radius: 50%;
-    border: 1px solid #cccccc;
+    border: 1px solid #ffd712;
     opacity: 0.9;
 
     position: absolute;
