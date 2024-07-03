@@ -47,9 +47,21 @@ window.addEventListener("mousemove", (e) => {
 });
 
 window.addEventListener("touchmove", (e) => {
+    e.preventDefault(); // Prevent scrolling
     const touch = e.touches[0];
     handleEvent(touch.clientX, touch.clientY);
-});
+}, { passive: false });
+
+window.addEventListener("touchstart", (e) => {
+    e.preventDefault(); // Prevent scrolling
+    const touch = e.touches[0];
+    handleEvent(touch.clientX, touch.clientY);
+}, { passive: false });
+
+window.addEventListener("touchend", (e) => {
+    e.preventDefault(); // Prevent scrolling
+}, { passive: false });
+
 
 
 // window.addEventListener("touchstart", (e) => {
